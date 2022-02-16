@@ -8,7 +8,7 @@ country_codes :=
   
 firstlast(athlete_name: string) :=
       ltrim(clast(split(athlete_name, ",")))+" "+cfirst(split(athlete_name, ","))
-    
+
 athlete(athlete_name: string) :=
   SELECT *
   FROM athletes
