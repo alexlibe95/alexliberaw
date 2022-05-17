@@ -11,7 +11,6 @@ metadata:
     - feed
 code: rql
 codeFile: with-arguments.rql
-declaration: find_topN_topics_for
 format: json
 security:
   public: true
