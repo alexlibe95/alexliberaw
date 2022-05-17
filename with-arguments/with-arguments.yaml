@@ -2,10 +2,7 @@ raw: 0.9
 endpoint: GET
 metadata:
   title: Topic extraction
-  description: Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject
-  sdsdsdsdsdsdsdsdsdsdsdsds
-  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-  reerereeeeeeeeeeeeee
+  description: Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subjectsdsdsdsdsdsdsdsdsdsdsdsdseeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeereerereeeeeeeeeeeeee
   tags:
     - topic
     - extraction
