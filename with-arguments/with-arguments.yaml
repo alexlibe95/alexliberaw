@@ -1,16 +1,22 @@
-# yaml-language-server: $schema=https://rawlabs-public-test-data.s3.eu-west-1.amazonaws.com/endpoint-schemaV0.9.json
 raw: 0.9
 endpoint: GET
 metadata:
-  title: Country Olympic medal statistics
-  description: Get year, city, and the number of the all gold, silver or bronze medals of the country name specified
+  title: Topic extraction
+  description: Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject Find related topics for given subject
+  sdsdsdsdsdsdsdsdsdsdsdsds
+  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+  reerereeeeeeeeeeeeee
   tags:
-    - olympics
+    - topic
+    - extraction
+    - greek
+    - rss
+    - feed
 code: rql
 codeFile: with-arguments.rql
-declaration: countryMedals
+declaration: find_topN_topics_for
 format: json
 security:
-  public: false
+  public: true
 computeClass: normal
 enabled: true
