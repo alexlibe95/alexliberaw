@@ -26,7 +26,7 @@ code: rql
 codeFile: with-arguments.rql
 format: json
 security:
-  public: true
+  public: false
   scopes:
     - monitoring
     - infra
