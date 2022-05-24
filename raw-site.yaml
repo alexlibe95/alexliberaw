@@ -1,3 +1,17 @@
 raw: 0.9
 publishUrl: alexlibe
 enabled: true
+security:
+  public: false
+  scopes:
+    - monitoring
+    - infra
+    - devops1
+    - devops2
+    - devops3
+    - devops4
+    - devops5
+    - devops6
+    - devops7
+    - devops8
+    
