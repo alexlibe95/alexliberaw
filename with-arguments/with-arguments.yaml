@@ -27,5 +27,16 @@ codeFile: with-arguments.rql
 format: json
 security:
   public: true
+  scopes:
+    - monitoring
+    - infra
+    - devops1
+    - devops2
+    - devops3
+    - devops4
+    - devops5
+    - devops6
+    - devops7
+    - devops8
 computeClass: normal
 enabled: true
