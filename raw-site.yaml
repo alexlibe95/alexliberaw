@@ -2,7 +2,7 @@ raw: 0.9
 publishUrl: alexlibe
 enabled: true
 security:
-  public: false
+  public: true
   scopes:
     - monitoring
     - infra
