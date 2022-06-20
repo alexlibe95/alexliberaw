@@ -17,7 +17,6 @@ metadata:
     url: "https://www.apache.org/licenses/LICENSE-2.0.html"
     version: 1.1
 code: rql
-declaration: foo
 codeFile:  without-arguments.rql
 format: json
 security:
