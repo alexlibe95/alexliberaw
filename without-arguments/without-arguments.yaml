@@ -3,7 +3,7 @@ raw: 0.9
 endpoint: GET
 metadata:
   title: Engineering stand-up
-  description: Decides the order in which members are talking
+  description: Statistiques sur unités géographiques administratives https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/tableaux.assetdetail.20944876.html
   tags:
     - test
     - Hello World
