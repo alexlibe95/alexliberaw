@@ -1,15 +1,5 @@
-people := read("https://www.dropbox.com/s/5e3junvknlbxbhc/engineering.json?dl=1");
-
-n_people := SELECT COUNT(*) FROM people;
-
-rand_sequence := {
-    url := "https://www.random.org/sequences/?min=0&max=" + (n_people-1) + "&col=1&format=plain&rnd=new";
-    SELECT CAST(line AS INT) FROM line IN READ_LINES(url)
-};
-
-SELECT (SELECT FIRST(person)
-        FROM p IN ENUMERATE(people),
-             p._2 AS person,
-             p._1 AS idx
-             WHERE idx = rank)
-FROM rank in rand_sequence
+[
+ (a: 1, b: "Hello"),
+ (a: 2, b: "World"),
+ (a: 3, b: "Again!")
+]
