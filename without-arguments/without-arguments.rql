@@ -13,3 +13,15 @@ SELECT (SELECT FIRST(person)
              p._1 AS idx
              WHERE idx = rank)
 FROM rank in rand_sequence
+
+recent_tweets( twitterNameList: string := "", keywordList: string nullable := null ,maxResults: int := 100 ) := {
+  get_tweets_search_recent( 
+        client_id:= secret("twitter.com_clientId"),
+        client_secret:= secret("twitter.com_clientSecret"),
+        query:= query_str(twitterNameList,keywordList) ,
+        max_results:= maxResults,
+        `tweet.fields`:="id,text,geo,created_at,entities,author_id,in_reply_to_user_id,referenced_tweets",
+        expansions:= "author_id",
+        `user.fields`:="username,name,id"
+      )
+}
