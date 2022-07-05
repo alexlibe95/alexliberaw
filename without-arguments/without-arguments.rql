@@ -1,5 +1,0 @@
-[
- (a: 1, b: "Hello"),
- (a: 2, b: "World"),
- (a: 3, b: "Again!")
-]
