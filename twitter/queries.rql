@@ -2,7 +2,16 @@
 FROM `github://raw-labs/lib/1/public/twitter.com/twitter.rql`
   IMPORT get_tweets_search_recent;
 
-query_str(twitterNameList: string nullable := null, keywordList: string nullable := null) := {
+query_str(
+  twitterNameList: string nullable := null,
+  keywordList: string nullable := null,
+   keywords: string,
+   location_name: string nullable := null,
+    location_code: int nullable := null,
+ language_name: string nullable := null,
+ language_code: string nullable := null,
+ include_serp_info: bool nullable :=false
+  ) := {
   // basic twitter query string generation, 
   // see: https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query
     IF twitterNameList is null THEN "" ELSE "(" + 
