@@ -4,8 +4,7 @@ FROM `github://raw-labs/lib/1/public/twitter.com/twitter.rql`
 
 query_str(
   twitterNameList: string nullable := null,
-  keywordList: string nullable := null,
-  include_serp_info: bool nullable := false
+  keywordList: string nullable := null
   ) := {
   // basic twitter query string generation, 
   // see: https://developer.twitter.com/en/docs/twitter-api/tweets/search/integrate/build-a-query
