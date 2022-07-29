@@ -16,6 +16,15 @@ metadata:
     - Wikipedia
     - countries
     - government
+    - government1
+    - government2
+    - government3
+    - government4
+    - government5
+    - government6
+    - government7
+    - government8
+    - government9
 security:
   public: true
 refreshSeconds: 600
