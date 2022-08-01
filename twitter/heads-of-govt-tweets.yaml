@@ -25,6 +25,7 @@ metadata:
     - government7
     - government8
     - government9
+    - government10
 security:
   public: true
 refreshSeconds: 600
