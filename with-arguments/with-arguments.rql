@@ -13,3 +13,4 @@ SELECT (SELECT FIRST(person)
              p._1 AS idx
              WHERE idx = rank)
 FROM rank in rand_sequence
+
